@@ -21,14 +21,7 @@
 		04AD26DF28AFA6FB00BE7EE4 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD26DE28AFA6FB00BE7EE4 /* CanvasView.swift */; };
 		04F3D4B228C1069600E97538 /* NonClusteringMKMarkerAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3D4B128C1069600E97538 /* NonClusteringMKMarkerAnnotationView.swift */; };
 		04F3D4BF28D4E50100E97538 /* watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04F3D4BE28D4E50100E97538 /* watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		04F3D4C528D4E50100E97538 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F3D4C328D4E50100E97538 /* Interface.storyboard */; };
-		04F3D4C728D4E50200E97538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F3D4C628D4E50200E97538 /* Assets.xcassets */; };
 		04F3D4CD28D4E50200E97538 /* watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04F3D4CC28D4E50200E97538 /* watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		04F3D4D228D4E50200E97538 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3D4D128D4E50200E97538 /* InterfaceController.swift */; };
-		04F3D4D428D4E50200E97538 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3D4D328D4E50200E97538 /* ExtensionDelegate.swift */; };
-		04F3D4D628D4E50200E97538 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3D4D528D4E50200E97538 /* NotificationController.swift */; };
-		04F3D4D828D4E50200E97538 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3D4D728D4E50200E97538 /* ComplicationController.swift */; };
-		04F3D4DA28D4E50200E97538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F3D4D928D4E50200E97538 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,16 +84,7 @@
 		04F3D4B128C1069600E97538 /* NonClusteringMKMarkerAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonClusteringMKMarkerAnnotationView.swift; sourceTree = "<group>"; };
 		04F3D4BB28D4E50100E97538 /* watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F3D4BE28D4E50100E97538 /* watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04F3D4C428D4E50100E97538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		04F3D4C628D4E50200E97538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F3D4CC28D4E50200E97538 /* watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04F3D4D128D4E50200E97538 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		04F3D4D328D4E50200E97538 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		04F3D4D528D4E50200E97538 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		04F3D4D728D4E50200E97538 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		04F3D4D928D4E50200E97538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04F3D4DB28D4E50200E97538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04F3D4DC28D4E50200E97538 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				04AD26BF289BEFEF00BE7EE4 /* Location */,
-				04F3D4C228D4E50100E97538 /* watch WatchKit App */,
-				04F3D4D028D4E50200E97538 /* watch WatchKit Extension */,
 				04AD26BE289BEFEF00BE7EE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -161,29 +143,6 @@
 				04F3D4B128C1069600E97538 /* NonClusteringMKMarkerAnnotationView.swift */,
 			);
 			path = Location;
-			sourceTree = "<group>";
-		};
-		04F3D4C228D4E50100E97538 /* watch WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				04F3D4C328D4E50100E97538 /* Interface.storyboard */,
-				04F3D4C628D4E50200E97538 /* Assets.xcassets */,
-			);
-			path = "watch WatchKit App";
-			sourceTree = "<group>";
-		};
-		04F3D4D028D4E50200E97538 /* watch WatchKit Extension */ = {
-			isa = PBXGroup;
-			children = (
-				04F3D4D128D4E50200E97538 /* InterfaceController.swift */,
-				04F3D4D328D4E50200E97538 /* ExtensionDelegate.swift */,
-				04F3D4D528D4E50200E97538 /* NotificationController.swift */,
-				04F3D4D728D4E50200E97538 /* ComplicationController.swift */,
-				04F3D4D928D4E50200E97538 /* Assets.xcassets */,
-				04F3D4DB28D4E50200E97538 /* Info.plist */,
-				04F3D4DC28D4E50200E97538 /* PushNotificationPayload.apns */,
-			);
-			path = "watch WatchKit Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,8 +288,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F3D4C728D4E50200E97538 /* Assets.xcassets in Resources */,
-				04F3D4C528D4E50100E97538 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +295,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F3D4DA28D4E50200E97538 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,10 +317,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F3D4D628D4E50200E97538 /* NotificationController.swift in Sources */,
-				04F3D4D828D4E50200E97538 /* ComplicationController.swift in Sources */,
-				04F3D4D428D4E50200E97538 /* ExtensionDelegate.swift in Sources */,
-				04F3D4D228D4E50200E97538 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,14 +350,6 @@
 				04AD26CC289BEFF000BE7EE4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		04F3D4C328D4E50100E97538 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04F3D4C428D4E50100E97538 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -646,7 +590,6 @@
 		04F3D4E228D4E50200E97538 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -671,7 +614,6 @@
 		04F3D4E328D4E50200E97538 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
